@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scrollable Div</title>
+</head>
+<body>
+    <style>
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            overflow: hidden;
+            background-color: rgb(24,24,24);
+        }
+        .WC-Scrollable-Div{
+            width: 50%;
+            height: 50vh;
+            background-image: linear-gradient(65deg,rgb(3, 79, 167),rgb(255, 0, 85));
+            font-size: 2rem;
+            color: rgb(223, 223, 223);
+            font-family:cursive;
+            overflow-y: scroll;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            white-space: pre-line;
+            padding: 3rem;
+            border-radius: 1rem;
+        }
+        .WC-Scrollable-Div::-webkit-scrollbar{
+            width: 1rem;
+            appearance: none;
+            -webkit-appearance: none;
+            background-color: transparent;
+            border-top-right-radius: 1rem;
+            border-bottom-right-radius: 1rem;
+        }
+        .WC-Scrollable-Div::-webkit-scrollbar-thumb{
+            background-color: rgb(3, 79, 167);
+            border-radius: 1rem;
+            width: 2rem;
+        }
+        ::selection{
+            background-color: rgb(24,24,24);
+            color: rgb(255, 0, 85);
+        }
+        
+    </style>
+    <div class="WC-Scrollable-Div">
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque sapiente ipsum est delectus cumque a laudantium, vitae magnam quia odit ratione esse laboriosam sunt minima maxime provident vero incidunt? Accusamus ut dolore magni iste ad neque voluptates at totam in temporibus optio explicabo cupiditate beatae eius tempore provident labore, { WebCoders } atque cum fuga consequatur. Aliquid dolorum sequi omnis. Porro eaque eligendi tempore, omnis blanditiis sint aliquam nam accusantium iste, ut numquam veniam inventore? Iste distinctio eligendi iusto architecto culpa consectetur laboriosam sed eaque! Voluptatibus ea praesentium nulla quos, adipisci eveniet, eum repellat id perferendis nesciunt reprehenderit optio fugit excepturi omnis.
+    </div>
+    <script>
+
+    </script>
+</body>
+</html>
